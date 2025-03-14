@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+/* navbar start  */
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+.navdiv {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.navdiv .navdiv_logo {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navdiv .navdiv_links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: right;
+}
+.navdiv .navdiv_links li {
+  display: inline-block;
+  margin: 12px;
+  font-size: 18px;
+}
+.navdiv button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  align-items: center;
+  margin: auto;
+}
+.navdiv button:hover {
+  background-color: #212529;
+  color: white;
+}
+.navdiv_links p {
+  display: inline-block;
+  justify-content: center;
+  background-color: black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  padding: 3px;
+  color: white;
+  font-weight: bolder;
+}
+.navdiv button:hover .zero {
+  background-color: white;
+  color: black;
+}
+
+/* navbar end  */
+
+/* main start */
+
+/* first_section start */
+
+.home {
+  width: 60%;
+  height: 100%;
+  display: flex;
+    background-color: #212529;
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.home_hero_text h3 {
+  text-align: center;
+  font-size: 42px;
+  color: white;
+}
+.home_hero_text p {
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+}
+/* first_section end */
+/* second_section start */
+.products {
+  width: 100%;
+  background-color: white;
+}
+.cards {
+  width: 60%;
+  display: flex;
+  gap: 2px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.cards_card {
+  margin: 12px 0;
+  border: 1px solid black;
+  width: 24%;
+  height: 350px;
+  box-shadow: 3px 3px 3px #212529;
+}
+.cards_card_poster {
+  width: 100%;
+  height: 170px;
+  background-color: rgb(204, 204, 204);
+}
+.cards_card_poster p {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: rgb(88, 88, 88);
+}
+.cards_card_name h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  margin-top: 12px;
+}
+.cards_card_sales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 100px;
+  height: 25px;
+  margin-left: 85px;
+}
+.star{
+    color: rgb(255, 166, 0);
+    text-align: center;
+}
+/* main end */
+/* footer start */
+footer{
+    background-color: #212529;
+    height: 90px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+/* footer end */
