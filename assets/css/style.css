@@ -14,7 +14,7 @@
   background-color: white;
 }
 .navdiv {
-  width: 80%;
+  width: 0%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -27,10 +27,11 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .navdiv .navdiv_links {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: right;
+  overflow: hidden;
 }
 .navdiv .navdiv_links li {
   display: inline-block;
